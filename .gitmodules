@@ -1,0 +1,6 @@
+[submodule "repast-amongmodel-frontend"]
+	path = repast-amongmodel-frontend
+	url = https://github.com/brunslo/repast-amongmodel-frontend
+[submodule "repast-amongmodel-backend"]
+	path = repast-amongmodel-backend
+	url = https://github.com/brunslo/repast-amongmodel-backend

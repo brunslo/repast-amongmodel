@@ -12,11 +12,11 @@ services:
       - backend
 
   frontend:
-    image: brunsjrl/amongmodel-frontend:0.1.0-SNAPSHOT
+    build: ./repast-amongmodel-frontend/
     expose:
       - 80
 
   backend:
-    image: brunsjrl/amongmodel-backend:0.0.1-SNAPSHOT
+    build: ./repast-amongmodel-backend/
     expose:
       - 8080
